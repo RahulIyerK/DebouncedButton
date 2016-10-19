@@ -6,7 +6,6 @@ int LED_PIN = 12;
 
 DebouncedButton dbutton;
 void setup() {
-  pinMode(BUTTON_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
   dbutton.init(BUTTON_PIN, 50);
 }

@@ -22,6 +22,7 @@ void DebouncedButton::init(int buttonPin, int delayTime) //invoke this method to
                                                          //debounce 50 works for most projects
 {
     pin = buttonPin;
+    pinMode (pin, INPUT);
     lastReading = 0;
     buttonState = 0;
     
