@@ -14,6 +14,6 @@ change has occurred some significant period of time since the previous one.  Whe
 to some threshold, then changes the button state only if the time since the last change is greater than the threshold. 
 
 I wrote this library to provide an easier method of implementing debouncing in Arduino sketches.  Rather than having to copy
-and paste debouncing code, the user just has to create "DebouncedButton" objects and invoke the digitalReadButton() method!
+and paste debouncing code, the user just has to create "DebouncedButton" objects, initialize the objects with the input pin and debouncing time, and invoke the digitalReadButton() method!
 
 Enjoy!
